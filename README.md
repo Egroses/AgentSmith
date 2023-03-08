@@ -1,5 +1,24 @@
 # AgentSmith
 
+## About Game
+This is a runner game.
+
+
+   Basically;
+
+  - User is trying to reachs finish.
+  
+  - User is passings through the door and taking gun from the doors.
+
+  - User can shoots enemies and obstacles with gun.
+  
+  - If user can kill a enemy, enemy drop one bullet.
+  
+  - User can takes bullets from door, place and if dead enemies body. 
+  
+
+ You can see images from game.
+
 ## Images From the Game
 
 **Start Game**\
