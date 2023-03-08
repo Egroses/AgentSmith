@@ -16,6 +16,7 @@ This is a runner game.
   
   - User can takes bullets from door, place and if dead enemies body. 
   
+  Swerve System and Gate Mechanics are used.
 
  You can see images from game.
 
