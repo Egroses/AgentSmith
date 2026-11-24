@@ -1,53 +1,37 @@
 # AgentSmith
 
-## About Game
-This is a runner game.
+Kapılardan silah alıp düşmanları ve varilleri vurarak bitiş çizgisine ulaşılan bir mobil koşu oyunu.
 
+![Düşmanı vurma](Images/Shoot%20Enemy.png)
 
-   Basically;
+## Neden?
 
-  - User is trying to reachs finish.
-  
-  - User is passings through the door and taking gun from the doors.
+Mobil koşu oyunlarında sık görülen iki mekaniği, parmağı sağa sola kaydırarak yön verme (swerve) ile içinden geçilen kapılardan güç alma mekaniğini bir arada denemek için yapıldı.
 
-  - User can shoots enemies and obstacles with gun.
-  
-  - If user can kill a enemy, enemy drop one bullet.
-  
-  - User can takes bullets from door, place and if dead enemies body. 
-  
-  Swerve System and Gate Mechanics are used.
+## Oynanış
 
- You can see images from game.
+- Karakter bitiş çizgisine doğru koşuyor, parmak sağa sola kaydırılarak yön veriliyor.
+- İçinden geçilen kapılar silah veriyor.
+- Silahla düşmanlar ve engeller vuruluyor. Vurulan variller patlıyor.
+- Ölen her düşman bir mermi düşürüyor. Mermi kapılardan, yerden ve ölen düşmanlardan toplanabiliyor.
 
-## Images From the Game
+## Ekranlar
 
-**Start Game**\
-![start picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Game%20Start.png)
+| Başlangıç | Çatışma |
+|---|---|
+| ![Başlangıç](Images/Game%20Start.png) | ![Çatışma](Images/Battle.png) |
+| **Düşmanın ölmesi** | **Varili vurma** |
+| ![Düşmanın ölmesi](Images/Enemy%20Death.png) | ![Varili vurma](Images/Shoot%20Barrel.png) |
+| **Varil patlaması** | **Bitiş çizgisi** |
+| ![Varil patlaması](Images/Barrel%20Explosion.png) | ![Bitiş çizgisi](Images/Finish%20Line.png) |
+| **Kazanma** | **Kaybetme** |
+| ![Kazanma](Images/Win.png) | ![Kaybetme](Images/Fail%20Soldier.png) |
 
-**Shoot Enemy**\
-![shoot enemy picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Shoot%20Enemy.png)
+## Teknik
 
-**Enemy Death**\
-![enemy death picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Enemy%20Death.png)
-
-**Battle**\
-![battle picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Battle.png)
-
-**Shoot Barrel**\
-![shoot barrel picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Shoot%20Barrel.png)
-
-**Barrel Explosion**\
-![barrel explosion picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Barrel%20Explosion.png)
-
-**Fail Soldier**\
-![fail soldier picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Fail%20Soldier.png)
-
-**Fail Barrel**\
-![fail barrel picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Fail%20Barrel.png)
-
-**Finish Line**\
-![finish line picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Finish%20Line.png)
-
-**Win**\
-![win picture](https://github.com/Egroses/AgentSmith/blob/main/Images/Win.png)
+| | |
+|---|---|
+| **Motor** | Unity |
+| **Kullanılanlar** | Swerve kontrolü, kapı mekaniği |
+| **Bu repoda** | Yalnızca oyunun scriptleri (`Codes`) ve ekran görüntüleri (`Images`); Unity projesinin tamamı yok |
+| **GitHub'a yükleme** | Mart 2023 |
